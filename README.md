@@ -3,7 +3,8 @@ Mobile-API for [GASOME](https://play.google.com/store/apps/details?id=com.gasome
 
 ## Example
 ```python
-import gasome
-gasome = gasome.Gasome()
+from gasome import Gasome
+
+gasome = Gasome()
 gasome.login(username="", password="")
 ```
